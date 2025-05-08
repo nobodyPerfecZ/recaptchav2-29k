@@ -1,9 +1,9 @@
-# ReCAPTCHAv2 Dataset
+# ReCAPTCHAv2-29k
 
-ReCAPTCHAv2 Dataset is a dataset consisting of images derived from Google's reCAPTCHA v2 system, which is widely used for online human verification.
-It contains thousands of reCAPTCHA images, each paired with corresponding labels indicating the presence of specific objects or features (e.g., bicycle, bus, car).
+ReCAPTCHAv2-29k is a dataset consisting of images derived from Google's ReCAPTCHA v2 system, which is widely used for online human verification.
+It contains thousands of ReCAPTCHA images, each paired with corresponding labels indicating the presence of specific objects or features (e.g., bicycle, bus, car).
 This dataset is intended for educational and research purposes and is particularly suited for tasks such as feature extraction and multi-label image classification.
-It contributes to the domain of computer vision by offering real-world, noisy image data representative of visual recognition challenges encountered in reCAPTCHA systems.
+It contributes to the domain of computer vision by offering real-world, noisy image data representative of visual recognition challenges encountered in ReCAPTCHA systems.
 
 ## Dataset Structure
 
@@ -53,7 +53,7 @@ The final dataset splits are as follows:
 
 ## Social Impact of Dataset
 
-The ReCAPTCHAv2 Dataset offers valuable opportunities for advancing research in computer vision, particularly in tasks related to object detection, multi-label classification, and adversarial robustness.
+The ReCAPTCHAv2-29k offers valuable opportunities for advancing research in computer vision, particularly in tasks related to object detection, multi-label classification, and adversarial robustness.
 providing real-world, noisy, and visually diverse examples, it can help researchers develop models that are better equipped to handle real-life complexity, contributing to more accurate and resilient AI systems.
 These improvements may enhance accessibility tools, improve safety in autonomous systems, and support the development of AI that can better understand and navigate human environments.
 
@@ -63,11 +63,11 @@ However, the dataset also presents several social risks and ethical concerns:
 
 ## Discussion of Biases
 
-As the ReCAPTCHAv2 Dataset is derived from Google's reCAPTCHAv2 system, several inherent biases may be reflected in the data:
+As the ReCAPTCHAv2-29k is derived from Google's ReCAPTCHAv2 system, several inherent biases may be reflected in the data:
 
 - **Geographic Bias**: The images may be biased towward urban environments commonly found in North America and Europe, potentially underrepresenting non-Western regions.
 - **Object Representation Bias**: Certain object classes (e.g., cars, traffic lights, buses) may be overrepresented, while others may appear less frequently or not at all. This can affect the generalizability of models trained on the dataset.
-- **Cultural Context Bias**: The design of reCAPTCHA tasks may implicitly assume familiarity with specific traffic symbols, infrastructure, or object appearances that vary globally.
+- **Cultural Context Bias**: The design of ReCAPTCHA tasks may implicitly assume familiarity with specific traffic symbols, infrastructure, or object appearances that vary globally.
 - **Visual Quality and Noise Bias**: To increase task difficulty, Google's system often introduces visual noise, distortions, or transformations (e.g. blurring, compression artifcats, color space shifts). These manipulations are preserved in the dataset and can impact both human and model performance.
 
 ## Contributing
@@ -77,14 +77,14 @@ If you have additional images to add or find any errors, please open an issue or
 
 ## Dataset Curators
 
-The ReCAPTCHAv2 Dataset was collected by web scraping from the [Google's reCAPTCHAv2 demo page](https://www.google.com/recaptcha/api2/demo).
+The ReCAPTCHAv2-29k was collected by web scraping from the [Google's ReCAPTCHAv2 demo page](https://www.google.com/recaptcha/api2/demo).
 The dataset was manually labeled to support multilabel image classification tasks.
 
-> ⚠️ **Disclaimer**: This dataset was created for educational and research purposes only. It is not affiliated with or endorsed by Google or the reCAPTCHA team.
+> ⚠️ **Disclaimer**: This dataset was created for educational and research purposes only. It is not affiliated with or endorsed by Google or the ReCAPTCHA team.
 
 ## License
 
 This repository is released under the [MIT License](LICENSE).
 
-Please note that while this project is distributed under an open-source license, the reCAPTCHA images themselves are owned by Google.
+Please note that while this project is distributed under an open-source license, the ReCAPTCHA images themselves are owned by Google.
 Fair Use from Google allows to use this dataset for nonprofit, educational, research and analysis purposes.
